@@ -1,0 +1,151 @@
+{
+ "especialidades":[
+   	{
+      "id":1,
+      "nombre": "Especialidad React",
+      "foto": "https://kriss.io/wp-content/uploads/2019/08/Best-React-Native-Course-.png"
+      
+
+    },
+    {
+      "id":2,
+      "nombre": "Especialidad Javascript",
+      "foto": "https://www.onlinecourses24x7.com/wp-content/uploads/2018/03/Javascript-from-Basic-to-Advanced.jpg",
+      "subtitle" : "Often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.",
+      "learn":["<li>How JavaScript works</li><li>Programming using classes</li><li>Building interfaces with APIs</li><li>DOM</li><li>Ajax y WebSockets</li>"],
+      "requirements":"<li>Html</li> <li>Javascript basic</li> <li>OOP Javascript</li>",
+      "level":"Advanced",
+      "description":[
+        {"id":1,"title":"What's JavaScript?","descrip":"<li>Welcome to the course</li><li>JavaScript</li><li>ECMA</li><li>Motor V8</li><li>Requeriments</li><li>First líne of code</li>"},
+        {"id":2,"title":"Sintax","descrip":"<li>Add Comments</li><li>Type of data</li><li>Objects</li><li>Declaration y Asignation</li><li>Constants</li>"},
+        {"id":3,"title":"Logic","descrip":"<li>functions</li><li>If Staments</li><li>While loops</li><li>for loop</li><li>Array</li><li>objects extra</li><li>working with Arrays</li>"},
+        {"id":4,"title":"OOP","descrip":"<li>Class</li><li>Atributtes</li><li>Methods</li><li>Scoope</li><li>Object Decalration</li><li>Review</li>"}],
+      "requirement":[{
+        "nombre": "Html/Css from cero",
+        "foto": "https://cautenerife.com/assets/img/html5logo.jpg"
+      },
+      {"nombre": "OOP with Javascript ",
+        "foto": "https://hackernoon.com/hn-images/1*XlnVJQ392USdQuQcdyvJ4w.png"}],
+        "teacher":"Paloma Suarez"
+
+
+    }	
+
+  ],
+  "cursos": [
+    {
+      "id":1,
+      "nombre": "Basic React",
+      "foto": "https://s3.amazonaws.com/coursesity-blog/2020/03/React-Native--1-.png",
+      "subtitle" : "React was created by Jordan Walke, a software engineer at Facebook, who released an early prototype of React called 'FaxJS'",
+      "information": "React is an open-source, front end, JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies.React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing.",
+      "speciality_name":"Front-end with React.js",
+      "youlearn":"<li>IDE config</li><li>JSX sintax</li><li>The importance of Component</li>",
+      "requirements":"<li>Html</li> <li>Javascript basic</li> <li>OOP Javascript</li>",
+      "level":"Medium",
+
+      "description":[{"title":"React",
+        "descrip":"<li>What's React and why you should use it</li><li>JSX sintax used by React to create components in JavaScript just like HTML.</li><li>The components are pieces of block that make you UI.</li><li>Learn how to use and update the information within the component.</li>"},
+        {"title":"Introductin","descrip":"<li>Integration EDgrid</li><li>What is JSX?</li><li>JSX Restriccions</li><li>Let's get deep in JSX</li>"},
+        {"title":"JSX Components","descrip":"<li>Upload files in Github</li><li>Expressions JSX</li><li>Propieties</li><li>Printing out propieties</li><li>Components</li><li>propTypes y defaultProps</li><li>Arrays</li>"},
+        {"title":"State Componenets","descrip":"<li>Class Component</li><li>Form</li><li>Component State</li><li>Updating the State</li><li>Methods</li><li>cicle of life</li><li>Review</li>"}],
+      "points" :["<li>1.1 - What is React?</li> <li>1.2 - Virtual DOM</li> <li>1.3 - Components</li> <li>1.4 - Instaling my first app</li> <li>1.5 - Dependencies</li> <li>1.6 - Scripts</li> <li>1.7 - Recomendations</li>"],
+      "teacher":"Ismael Torrez"
+        
+    },
+    {
+      "id":2,
+      "nombre": "OOP with Javascript ",
+      "foto": "https://hackernoon.com/hn-images/1*XlnVJQ392USdQuQcdyvJ4w.png",
+      "subtitle" : ""
+
+    },
+    {
+      "id":3,
+      "nombre": "Git from cero",
+      "foto": "https://courseshunter.com/media/images/git-basics-learn-the-basics-of-the-git-cli.jpg",
+      "subtitle" : ""
+
+    },
+    {
+      "id":4,
+      "nombre": "Python from cero",
+      "foto": "https://www.dataoptimal.com/wp-content/uploads/python-programming-for-beginners-2019-1024x574.jpg",
+      "subtitle" : ""
+    },
+    {
+      "id":5,
+      "nombre": "Html/Css from cero",
+      "foto": "https://cautenerife.com/assets/img/html5logo.jpg",
+      "subtitle" : ""
+      
+    },
+    {
+      "id":6,
+      "nombre": "Java from cero",
+      "foto": "https://udemy24.com/wp-content/uploads/2020/08/Practical-Java-Course-Zero-to-One.jpg",
+      "subtitle" : ""
+      
+    }	
+  ],
+  "profesores":[
+    {
+      "id": 1,
+      "nombre": "Roberto garcia ",
+      "foto": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Yo_como_profe.png",
+      "country":"UK"
+
+    },
+    {
+      "id": 2,
+      "nombre": "Paloma Suarez ",
+      "foto": "https://content.gnoss.ws/imagenes/Documentos/imgsem/23/23cd/23cd4cd0-ff8b-98cb-7b27-1f93769521ca/bce46d44-ff07-458c-42eb-8fa76ee79780_435.jpeg",
+      "country": "Spain"
+    },
+    {
+      "id": 3,
+      "nombre": "Ismael Torrez ",
+      "foto": "https://st.depositphotos.com/2400497/2931/v/950/depositphotos_29310763-stock-illustration-cartoon-professor.jpg",
+      "country":"USA"
+
+    },
+    {
+      "id": 4,
+      "nombre": "Luisa Sanchez ",
+      "foto": "https://comps.canstockphoto.es/libro-indicador-profesor-caricatura-clip-art-vectorial_csp13177368.jpg",
+      "country": "italy"
+    }
+  ],
+  "posts":[
+    {"title": "Testing 1",
+     "author": "person ",
+     "date": "14.01.2021",
+     "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque labore nisi rerum iure, qui doloremque reprehenderit veniam, doloribus, architecto similique nulla. At perferendis voluptatum nisi ullam numquam ab atque blanditiis."
+    },
+    {"title": "Testing 2",
+      "author": "person ",
+      "date": "16.01.2021",
+      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque labore nisi rerum iure, qui doloremque reprehenderit veniam, doloribus, architecto similique nulla. At perferendis voluptatum nisi ullam numquam ab atque blanditiis."
+     },
+     {"title": "Testing 3",
+      "author": "person ",
+      "date": "18.01.2021",
+      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque labore nisi rerum iure, qui doloremque reprehenderit veniam, doloribus, architecto similique nulla. At perferendis voluptatum nisi ullam numquam ab atque blanditiis."
+     },
+     {"title": "Testing 4",
+      "author": "person ",
+      "date": "19.01.2021",
+      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque labore nisi rerum iure, qui doloremque reprehenderit veniam, doloribus, architecto similique nulla. At perferendis voluptatum nisi ullam numquam ab atque blanditiis."
+     },
+     {"title": "Testing 5",
+      "author": "person ",
+      "date": "20.01.2021",
+      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque labore nisi rerum iure, qui doloremque reprehenderit veniam, doloribus, architecto similique nulla. At perferendis voluptatum nisi ullam numquam ab atque blanditiis."
+     },
+     {"title": "Testing 6",
+      "author": "person ",
+      "date": "21.01.2021",
+      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque labore nisi rerum iure, qui doloremque reprehenderit veniam, doloribus, architecto similique nulla. At perferendis voluptatum nisi ullam numquam ab atque blanditiis."
+     }
+  ]
+}

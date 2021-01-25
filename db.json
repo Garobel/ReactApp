@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "roberto garcia",
+      "email": "rob@hot.com",
+      "password": "1234",
+      "id": 0
+    },
+    {
+      "name": "Ismael Garcia",
+      "email": "ismael@hot.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "shoghik sargsyan",
+      "email": "shoghik@hotmail.com",
+      "password": "mio12",
+      "id": 2
+    },
+    {
+      "name": "POLLITO",
+      "email": "pollo@hot.com",
+      "password": "7890",
+      "id": 3
+    }
+  ]
+}
