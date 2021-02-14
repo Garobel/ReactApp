@@ -15,7 +15,7 @@ const PrivateM = () => (
             <li><NavLink to="/especialidades">Especialidades</NavLink></li>
             <li><NavLink to="/cursos">Courses</NavLink></li>
             <li><NavLink to="/profesores">Teachers</NavLink></li>
-            <li><span onClick = {() => RemoveToken()}>Log out</span></li>
+            <li ><span  onClick = {() => RemoveToken()}>Log out</span></li>
 
           </ul>
 

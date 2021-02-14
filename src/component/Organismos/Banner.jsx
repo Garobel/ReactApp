@@ -16,7 +16,8 @@ const Banner = ({color,image,title,subtitle,home,coursebanner,information,especi
          <div className="main-banner__data ">
              <h1 className="main-banner__title " >{title}</h1>
              <p>{subtitle}</p>
-              <Link to = "/cursos" className= "button third-color ">Go to courses</Link>
+              <Link to = "/cursos" className= "button third-color">Go to courses</Link>
+              <p></p>
           </div>
           <div className=" img-container s-ratio-16-9 ">
               <img src={image.src} alt={image.alt}/>

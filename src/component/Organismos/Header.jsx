@@ -2,6 +2,7 @@ import React, {createRef} from 'react'
 import { NavLink } from 'react-router-dom'
 import PublicM from '../moleculas/Public'
 import PrivateM from '../moleculas/PrivateM'
+import logo from '../../images/logo.png'
 
 const menu = createRef()
 const toggleMenu = () => menu.current.classList.toggle('show')
@@ -14,7 +15,7 @@ const Header = ()=> (
       <div className=" s-cols-4 lg-cols-1 s-cross-center">
         <NavLink to="/">
 
-          <img src="https://ed-grid.com/assets/img/og-image.jpg" alt="Edlogo" className="main-logo"/>
+          <img src={logo} alt="Edlogo" className="main-logo"/>
 
         </NavLink>
       </div>

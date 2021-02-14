@@ -3,6 +3,7 @@ import { connect } from "react-redux"
 import store from "../../redux/store"
 import { getCourse } from "../../redux/actionCreators"
 import Banner from "../Organismos/Banner"
+import { Link } from "react-router-dom"
 
 
 
@@ -59,8 +60,11 @@ const Course = ({course}) => {
             <div key = {ind} className= "course-class l-section">
               
               <h3 >{d.title}</h3>
-               <ul ><li  dangerouslySetInnerHTML = {{__html:d.descrip}}/></ul>
-            </div>))}
+              <ul ><Link to={`/clase/${d.ind}`} className="color dark-color" >
+                <li   dangerouslySetInnerHTML = {{__html:d.descrip}}/>
+                </Link></ul>
+            </div>))
+          }
                      
         </div>
       </div>

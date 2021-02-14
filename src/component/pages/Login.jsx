@@ -12,18 +12,20 @@ const Authentication = e => {
     
   }
   
-  axios.get(`http://localhost:3002/users`,data)
+  axios.get(`${process.env.REACT_APP_API_USER}/users`,data)
   .then( r => {
 
-      r.data.map(s => {
+    r.data.map(s => {
+
    
-        if(data.email === s.email && data.password === s.password ){
-            window.location = "/"
-            return localStorage.setItem('token',Math.random())
-        }
-        return "error found"
-               
-      })
+      if(data.email === s.email && data.password === s.password ){
+          window.location = "/"
+          return localStorage.setItem('token',Math.random())
+      }
+      
+      return "welcome"
+             
+    })
   
   }).catch(x => (alert("error found")))
   

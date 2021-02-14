@@ -1,9 +1,10 @@
-import Axios from "axios"
+import axios from "axios"
 import { GET_ALL_POSTS,GET_ALL_SPECIALITIES,GET_ALL_TEACHERS,GET_ALL_COURSES,GET_COURSE,GET_FRAGMENT,GET_POST,GET_SPECIALITY } from "./actions"
 
 export const getAllPosts = () => dispatch => {
 
-  Axios.get(`${process.env.REACT_APP_API_URL}/posts`).then(
+  axios.get(`${process.env.REACT_APP_API_URL}/posts`).then(
+
     resp =>{
       return dispatch ({
         type : GET_ALL_POSTS ,
@@ -16,7 +17,7 @@ export const getAllPosts = () => dispatch => {
 
 export const getAllSpecialities = () => dispatch => {
 
-  Axios.get(`${process.env.REACT_APP_API_URL}/especialidades`).then(
+  axios.get(`${process.env.REACT_APP_API_URL}/especialidades`).then(
     resp =>{
       return dispatch ({
         type : GET_ALL_SPECIALITIES ,
@@ -29,7 +30,7 @@ export const getAllSpecialities = () => dispatch => {
 
 export const getAllCourses = () => dispatch => {
 
-  Axios.get(`${process.env.REACT_APP_API_URL}/cursos`).then(
+  axios.get(`${process.env.REACT_APP_API_URL}/cursos`).then(
     resp =>{
       return dispatch ({
         type : GET_ALL_COURSES ,
@@ -42,7 +43,7 @@ export const getAllCourses = () => dispatch => {
 
 export const getAllTeachers = () => dispatch => {
 
-  Axios.get(`${process.env.REACT_APP_API_URL}/profesores`).then(
+  axios.get(`${process.env.REACT_APP_API_URL}/profesores`).then(
     resp =>{
       return dispatch ({
         type : GET_ALL_TEACHERS ,
@@ -56,7 +57,7 @@ export const getAllTeachers = () => dispatch => {
 
 export const getPost = (id) => dispatch => {
 
-  Axios.get(`${process.env.REACT_APP_API_URL}/posts/${id}`).then(
+  axios.get(`${process.env.REACT_APP_API_URL}/posts/${id}`).then(
     resp =>{
       return dispatch ({
         type : GET_POST ,
@@ -69,7 +70,7 @@ export const getPost = (id) => dispatch => {
 
 export const getSpeciality = (id) => dispatch => {
 
-  Axios.get(`${process.env.REACT_APP_API_URL}/especialidades/${id}`).then(
+  axios.get(`${process.env.REACT_APP_API_URL}/especialidades/${id}`).then(
     resp =>{
       return dispatch ({
         type : GET_SPECIALITY ,
@@ -82,7 +83,7 @@ export const getSpeciality = (id) => dispatch => {
 
 export const getCourse = (id) => dispatch => {
 
-  Axios.get(`${process.env.REACT_APP_API_URL}/cursos/${id}`).then(
+  axios.get(`${process.env.REACT_APP_API_URL}/cursos/${id}`).then(
     resp =>{
       return dispatch ({
         type : GET_COURSE ,
@@ -95,7 +96,7 @@ export const getCourse = (id) => dispatch => {
 
 export const getFragment = (id) => dispatch => {
 
-  Axios.get(`${process.env.REACT_APP_API_URL}/clases/${id}`).then(
+  axios.get(`${process.env.REACT_APP_API_URL}/clase/${id}`).then(
     resp =>{
       return dispatch ({
         type : GET_FRAGMENT ,

@@ -9,11 +9,12 @@ const Authentication2 = e => {
   {
     "name": e.target.fullname.value,
     "email": e.target.email.value,
-    "password": e.target.password.value,
+    "password": e.target.password.value
+  
     
   }
 
-  axios.post('http://localhost:3002/users', data)
+  axios.post(`${process.env.REACT_APP_API_USER}/users`, data)
   .then( () => {
     alert("Usuario Creado")
     window.location = "/login"
