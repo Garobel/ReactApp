@@ -17,7 +17,7 @@ const Authentication2 = e => {
   axios.post(`${process.env.REACT_APP_API_USER}/users`, data)
   .then( () => {
     alert("Usuario Creado")
-    window.location = "/login"
+    window.location = "/"
     
   }).catch(x => (console.log(x)))
   
